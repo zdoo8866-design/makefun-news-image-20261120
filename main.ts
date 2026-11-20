@@ -2,9 +2,11 @@
 //
 // The artwork itself is entry.png in this directory: a 1024x1024 front
 // page that sums up the world news of 20 November 2026 in six panels.
-// Running this program stages the image into ./output and verifies the
-// staged copy against the competition's intake limits (PNG format,
-// at most 1024x1024 pixels, at most 1 MiB on disk).
+// Running this program stages the image into the output directory
+// ($MAKEFUN_OUTPUT_DIR, which the grader sets to /output; the repository
+// itself is mounted read-only there) and verifies the staged copy
+// against the competition's intake limits (PNG format, at most
+// 1024x1024 pixels, at most 1 MiB on disk).
 
 import { createHash } from "node:crypto";
 import { copyFileSync, existsSync, mkdirSync, readFileSync, statSync } from "node:fs";
@@ -16,7 +18,7 @@ const MAX_DIM = 1024; // width and height cap in pixels
 
 const here = dirname(fileURLToPath(import.meta.url));
 const sourcePath = join(here, "entry.png");
-const outputDir = join(here, "output");
+const outputDir = process.env.MAKEFUN_OUTPUT_DIR ?? "/output";
 const outputPath = join(outputDir, "entry.png");
 
 function fail(message: string): never {
