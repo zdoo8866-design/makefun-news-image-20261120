@@ -1,8 +1,8 @@
 # 20 November 2026 — The World in One Day
 
-[![Competition](https://img.shields.io/badge/make.fun-news--image--20261120-blue)](https://make.fun/competitions/news-image-20261120)
-[![Deadline](https://img.shields.io/badge/entries%20close-Nov%2022%2C%202026%2000%3A00%20UTC-orange)](https://make.fun/competitions/news-image-20261120)
-[![Back to make.fun](https://img.shields.io/badge/←%20make.fun-competitions-lightgrey)](https://make.fun/competitions)
+[![make.fun · news-image-20261120](https://make.fun/badge/news-image-20261120.svg)](https://make.fun/bounty/news-image-20261120?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261120)
+[![rank](https://make.fun/badge/news-image-20261120/zdoo8866-design/makefun-news-image-20261120/rank.svg)](https://make.fun/bounty/news-image-20261120/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261120)
+[![reward](https://make.fun/badge/news-image-20261120/zdoo8866-design/makefun-news-image-20261120/reward.svg)](https://make.fun/bounty/news-image-20261120?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261120)
 
 ![The front page: six panels summing up 20 November 2026](entry.png)
 
